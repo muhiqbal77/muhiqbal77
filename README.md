@@ -18,9 +18,10 @@ This is a repository to showcase skills, share projects and track my progress in
 ## Portfolio Projects
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
-### Netflix Movie & TV Analysis
-**Code:** [`video_games_sales.ipynb`](https://github.com/nktnlx/data_analysis_portfolio/blob/main/video_games_sales.ipynb)    
-**Description:** The dataset contains 8790 records as of 2021. There is a list of content Movie & TV show on netflix with title, director, movie cast, country, date added, release year, rating, and genre. The project includes the following steps: data loading, data cleaning and preprocessing, filling missing values, EDA (exploratory data analysis), and visualization.   
+### Netflix Movie & TV Shows Analysis
+**Code:** [`Netlfix_clean.sql`](https://github.com/muhiqbal77/muhiqbal77/blob/main/Netlfix_clean.sql)    
+**Dashboard:** [Netflix Movie & TV Shows](https://public.tableau.com/app/profile/zero7962/viz/NetflixMovieAnalytics/DashbordNetflix)  
+**Description:** The dataset contains 8790 records as of 2021. There is a list of content Movie & TV shows on netflix with title, director, movie cast, country, date added, release year, rating, and genre. The project includes the following steps: data loading, data cleaning and preprocessing, filling missing values, EDA (exploratory data analysis), and visualization.   
 **Skills:** data cleaning, data analysis, descriptive statistics, central limit theorem, hypothesis testing, data visualization.    
 **Technology:** SQL, Tableau.    
 **Results:** created an analytical dashboard to knows content on netflix.
