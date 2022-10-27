@@ -70,7 +70,7 @@ select
   sum(case when genre is null then 1 else 0 end) genre_null
 from netflix;
 
--- Check corelation director with movie_cast
+-- Check correlation column director with column movie_cast
 WITH cte AS
 (
 SELECT title, CONCAT(director, '---', movie_cast) AS director_cast 
@@ -94,7 +94,7 @@ update netflix, nt2
 set netflix.country = nt2.country
 WHERE nt2.director = netflix.director and netflix.show_id <> nt2.show_id AND netflix.country is null;
 
--- Update sisa null value dengan "Not Given"
+-- Update null value with "Not Given"
 update netflix
 set director = 'Not Given'
 where director is null;
@@ -105,8 +105,6 @@ update netflix
 set movie_cast = 'Not Given'
 where movie_cast is null;
 
-
-
 -- Delete row in column if value null <100
 delete from netflix
 where rating is null;
@@ -114,37 +112,6 @@ delete from netflix
 where duration is null;
 delete from netflix
 where date_added is null;
-
-UPDATE netflix
-SET netflix.country = nt2.country
-WHERE netflix.director = nt2.director AND netflix.country IS NULL;
-
-
-select count(director) from netflix
-group by director
-order by director desc;
-
-select * from netflix
-where movie_cast = 'craig sechler';
-
-UPDATE netflix 
-SET director = 'Alastair Fothergill'
-WHERE movie_cast = 'David Attenborough'
-AND director IS NULL ;
-
-UPDATE netflix 
-SET country = 'India'
-WHERE director = 'S.S. Rajamouli'
-AND country IS NULL ;
-
-select count(movie_cast) as count, movie_cast, director from netflix
-group by movie_cast
-order by count desc;
-
-select count(*) as count, director, country from netflix
-where country is null
-group by director
-order by count desc;
 
 -- Count country
 select count(country) as count, country from netflix
@@ -156,39 +123,21 @@ select count(director) as count, director from netflix
 group by director
 order by count desc;
 
--- -- Count genre
+-- Count genre
 select count(genre) as count, genre from netflix
 group by genre
 order by count desc;
 
-select * from netflix;
 -- Count movie by release year
 select release_year, count(*) as total_movie from netflix
 group by release_year
 order by total_movie;
 
-select director, country from netflix
-where director = 'Rathindran R Prasad';
+-- Check oldest movie
+select title, release_year from netflix
+order by release_year asc;
 
-select count(*), rating as count from netflix
-group by rating;
-
--- Check column lagi untuk memastikan bahwa tidak ada null values
--- Count null values in every column    
-select 
-  sum(case when type is null then 1 else 0 end) type_null,
-  sum(case when title is null then 1 else 0 end) title_null,
-  sum(case when director is null then 1 else 0 end) director_null,
-  sum(case when movie_cast is null then 1 else 0 end) cast_null,
-  sum(case when country is null then 1 else 0 end) country_null,
-  sum(case when date_added is null then 1 else 0 end) date_added_null,
-  sum(case when release_year is null then 1 else 0 end) release_null,
-  sum(case when rating is null then 1 else 0 end) rating_null,
-  sum(case when duration is null then 1 else 0 end) duration_null,
-  sum(case when genre is null then 1 else 0 end) genre_null
-from netflix;
-
-
+-- Export to csv for visualization
 select * from netflix;
 SELECT 'show_id', 'type', 'title', 'director', 'movie_cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genre'
 UNION ALL
@@ -198,10 +147,3 @@ FIELDS ENCLOSED BY '"'
 TERMINATED BY ';' 
 ESCAPED BY '"' 
 LINES TERMINATED BY '\r\n';
-
-select count(*), year() from netflix
-group by date_added;
-
-select count(*) from netflix;
-
-desc netflix;
