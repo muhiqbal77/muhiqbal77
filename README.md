@@ -20,18 +20,31 @@ In this section I will list data analytics projects briefly describing the techn
 
 ### Netflix Movie & TV Analysis
 **Code:** [`video_games_sales.ipynb`](https://github.com/nktnlx/data_analysis_portfolio/blob/main/video_games_sales.ipynb)    
-**Description:**The dataset contains 8790 records as of 2021. There is a list of content Movie & TV show on netflix with title, director, movie cast, country, date added, release year, rating, and genre. The project includes the following steps: data loading, data cleaning and preprocessing, filling missing values, EDA (exploratory data analysis), and visualization.
-**Skills:** data cleaning, data analysis, descriptive statistics, central limit theorem, hypothesis testing, data visualization.
-**Technology:** SQL, Tableau.
+**Description:** The dataset contains 8790 records as of 2021. There is a list of content Movie & TV show on netflix with title, director, movie cast, country, date added, release year, rating, and genre. The project includes the following steps: data loading, data cleaning and preprocessing, filling missing values, EDA (exploratory data analysis), and visualization.   
+**Skills:** data cleaning, data analysis, descriptive statistics, central limit theorem, hypothesis testing, data visualization.    
+**Technology:** SQL, Tableau.    
 **Results:** created an analytical dashboard to knows content on netflix.
 
-- 👋 Hi, I’m @muhiqbal77
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+### Cylistics Customer Analysis
+**Code:** bla bla bla.  
+**Description:** The final project for 2 month Data Analytics Course. Setup: The director of marketing of Cyclistic, Lily Moreno, believes that the company’s future growth depends on maximizing the number of annual memberships. Hence, the marketing analyst team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, the analytics team could be able to design a new marketing strategy to convert casual riders into annual members.    
+**Skills:** data cleaning, data analysis, descriptive statistics, hypothesis testing, data visualization.  
+**Technology:** R, Tidyverse, Lubridate, Ggplot2, Tableau.  
+**Results:** The difference between casual rider and membership in using a bicycle, recommendations on how to increase the number of annual membership.
 
-<!---
-muhiqbal77/muhiqbal77 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+### Tableau Vizzes
+**Description:** My Tableau Public account ---> [go to Tableau..](https://public.tableau.com/profile/nktn.lx#!/)  
+**Status:** ∞  
+
+## Certificates
+I believe that the best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be as an indirect result:) So here is a list of the ones I have (in reverse-chronological order, with the date of completion in brackets):
+
+- [Google Data Analytics](https://drive.google.com/file/d/1glcJC-2dWzlH_2hFZBvmZ5ch5zs_rmD0/view?usp=sharing) (Oct 2022) (Coursera)
+- [Database MySQL](https://drive.google.com/file/d/1KiumoMyTmtiudF5ewNorJbeOLb_yZgNA/view?usp=sharing) (Oct 2022) (Udemy)
+
+## Contacts
+- LinkedIn: [@Muhammad Iqbal](https://www.linkedin.com/in/muhammad-iqbal-754a0521b/)
+- Telegram: [@Muhammad Iqbal](https://t.me/muhiqbal77)
+- Twitter: [@Muhammad Iqbal](https://instagram.com/baliqball._)
+- E-mail: muhiqbal3077@gmail.com
