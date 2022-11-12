@@ -9,9 +9,9 @@ This is a repository to showcase skills, share projects and track my progress in
 
 ## Table of contents
 - [About](#about)
-- [Portfolio Projects](#portfolio-projects)
-       + [Calystic Customer Analysis](#cyclistic-customer-analysis)
-       + [Netflix Movie & TV Analysis](#netflix-movie-&-TV-analysis)
+- [Portfolio Projects](#portfolio-projects)                    
+       + [Calystic Customer Analysis](#cyclistic-customer-analysis)                 
+       + [Netflix Movie & TV Shows Analysis](#netflix-movie-&-TV-analysis)                
 - [Certificates](#certificates)
 - [Contacts](#contacts)
 
@@ -30,7 +30,7 @@ In this section I will list data analytics projects briefly describing the techn
 **Code:** bla bla bla.  
 **Description:** The final project for 2 month Data Analytics Course. Setup: The director of marketing of Cyclistic, Lily Moreno, believes that the company’s future growth depends on maximizing the number of annual memberships. Hence, the marketing analyst team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, the analytics team could be able to design a new marketing strategy to convert casual riders into annual members.    
 **Skills:** data cleaning, data analysis, descriptive statistics, hypothesis testing, data visualization.  
-**Technology:** R, Tidyverse, Lubridate, Ggplot2, Tableau.  
+**Technology:** Python, Pandas, Numpy, Seaborn, Matplotlib.  
 **Results:** The difference between casual rider and membership in using a bicycle, recommendations on how to increase the number of annual membership.
 
 
